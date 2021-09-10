@@ -1,2 +1,2 @@
-# Strona_do_-wicze-
+# Strona_do_cwiczen
 Strona wykorzysywana na lekcje

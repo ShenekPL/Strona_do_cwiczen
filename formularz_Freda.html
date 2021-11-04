@@ -1,12 +1,67 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 	<html lang="pl-PL">
-<html>
        <head>
 	  <meta charset="utf-8">
 	<title> Formularz </title>
        </head>
-       <body>
-     Freda. Tutaj będzie formularz.<br>
-	 <a href="index.html">powrót</a><br>
+		<body>
+		<form>
+		</p> Podaj województwo i miasto, w którym mieszkasz:<br>
+			Przykład:(Mazurkie, Warszawa).<br>
+		<input type="letter" name="wojewodztwoImiastio" size="65"> <br>
+		</p>
+		
+		<p> Podaj swój przedział wiekowy: <br>
+		<input type="radio" name="wiek" value="0-10">1-10 <br>
+		<input type="radio" name="wiek" value="10-17">11-17 <br>
+		<input type="radio" name="wiek" value="18+">18+ <br>
+		</p>
+		
+		<p> Podaj numer twojej klasy:<br>
+		<input type="numer" name="klasa" size="10" min=1 max=1> <br>
+		</p>
+		
+		<p> Podaj swoje hobby. <br>
+		<textarea type="letter" name="hobby"></textarea> <br>
+		<input type="checkbox" name="nohobby" value="nohobby">Nie posiadam hobby<br>
+		</p>
+		
+		<p>
+		Do jakiej szkoły chodzisz?<br>
+		<SELECT NAME="szkoła">
+		<OPTION VALUE="podstawowa">Podstawowa
+		<OPTION VALUE="liceum">Liceum
+		<OPTION VALUE="technikum">Technikum
+		<OPTION VALUE="branżowa">Branżowa
+		<OPTION VALUE="inne">Żadne z powyższych
+		</SELECT>
+		</p>
+		
+		<p> Wymień przedmioty, z których masz dobre oceny bądź je lubisz:<br>
+		<input type="checkbox" name="przedmioty" value="mat">Matematyka<br>
+		<input type="checkbox" name="przedmioty" value="j.ang">Język Angielski<br>
+		<input type="checkbox" name="przedmioty" value="l.pol">Język Polski<br>
+		<input type="checkbox" name="przedmioty" value="inf">Informatyka<br>
+		<input type="checkbox" name="przedmioty" value="fiz">Fizyka<br>
+		<input type="checkbox" name="przedmioty" value="chem">Chemia<br>
+		Inne:<input type="leter" name="inne"><br>
+		<input type="checkbox" name="przedmioty" value="nic">Nie mam ulubionych przedmiotów<br>
+		</p>
+		
+		<p> Czy jesteś zagrożony/a z jakiegoś przedmiotu? <br>
+		<input type="radio" name="zagrożonie" value="tak">Tak<br>
+		<input type="radio" name="zagrożonie" value="nie">Nie<br>
+		</p>
+		
+		<p>Podaj swój adres mailowy: <br>
+		<input type="letter" name="mail"><br>
+		</p>
+		
+		<input type="reset" value="Wyczyść formularz"></input>
+		<input type="submit"></input><br>
+		
+		</form>
+		<a href="index.html">powrót</a>
+	 
       </body>
 </html>
